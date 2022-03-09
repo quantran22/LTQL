@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Demo Lập trình quản lý</p>
+@using (Html.BeginForm())
+{
+    <label>MaSinhVien</label>
+    <input type="text" name="MaSinhVien" />
+    <label>TenSinhVien</label>
+    <input type="text" name="TenSinhVien" />
+
+    <input type="submit" value="Gửi giữ liệu" />
+}
+
