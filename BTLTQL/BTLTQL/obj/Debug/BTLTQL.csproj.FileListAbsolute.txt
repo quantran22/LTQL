@@ -1,4 +1,3 @@
-D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.AssemblyReference.cache
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.CoreCompileInputs.cache
 D:\LTQL\BTLTQL\BTLTQL\bin\BTLTQL.dll.config
 D:\LTQL\BTLTQL\BTLTQL\bin\BTLTQL.dll
@@ -81,9 +80,6 @@ D:\LTQL\BTLTQL\BTLTQL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.CopyComplete
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.dll
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.pdb
-D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_table_Account.resources
+D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.AssemblyReference.cache
+D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_Table_Uploand.resources
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.GenerateResource.cache
-D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Creae_Table_Khachhang.resources
-D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_Table_LoaiSanPham.resources
-D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_Table_NhaSanXuat.resources
-D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_Table_SanPham.resources

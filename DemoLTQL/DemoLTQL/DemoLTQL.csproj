@@ -155,6 +155,7 @@
     <Compile Include="Models\Khoa.cs" />
     <Compile Include="Models\LTQLDBContext.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\StringProcess.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
