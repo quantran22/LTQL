@@ -1,3 +1,4 @@
+using BTLLTQL.Models;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -19,7 +20,7 @@ namespace BTLTQL.Models
         public virtual DbSet<DanhGia> DanhGias { get; set; }
         public virtual DbSet<GioHang> GioHangs { get; set; }
         public virtual DbSet<HoaDon> HoaDons { get; set; }
-
+        public virtual DbSet<Role> Roles { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
 

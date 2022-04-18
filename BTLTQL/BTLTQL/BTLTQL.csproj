@@ -128,7 +128,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountsController.cs" />
+    <Compile Include="Controllers\DBContext.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoaiSanPhamsController.cs" />
+    <Compile Include="Controllers\NhaSanXuatsController.cs" />
+    <Compile Include="Controllers\SanPhamsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -136,17 +141,24 @@
     <Compile Include="Migrations\202203160349140_Create_Table_Uploand.Designer.cs">
       <DependentUpon>202203160349140_Create_Table_Uploand.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202204181532128_Create_Table_Role.cs" />
+    <Compile Include="Migrations\202204181532128_Create_Table_Role.Designer.cs">
+      <DependentUpon>202204181532128_Create_Table_Role.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\BTLapTrinhQuanLyDB.cs" />
     <Compile Include="Models\ChiTietHoaDon.cs" />
     <Compile Include="Models\DanhGia.cs" />
+    <Compile Include="Models\Encrytion.cs" />
     <Compile Include="Models\GioHang.cs" />
     <Compile Include="Models\HoaDon.cs" />
     <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\LoaiSanPham.cs" />
     <Compile Include="Models\NhaSanXuat.cs" />
+    <Compile Include="Models\Role.cs" />
     <Compile Include="Models\SanPham.cs" />
+    <Compile Include="Models\StringProcess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -185,9 +197,25 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\LoaiSanPhams\Create.cshtml" />
+    <Content Include="Views\LoaiSanPhams\Delete.cshtml" />
+    <Content Include="Views\LoaiSanPhams\Details.cshtml" />
+    <Content Include="Views\LoaiSanPhams\Edit.cshtml" />
+    <Content Include="Views\LoaiSanPhams\Index.cshtml" />
+    <Content Include="Views\NhaSanXuats\Create.cshtml" />
+    <Content Include="Views\NhaSanXuats\Delete.cshtml" />
+    <Content Include="Views\NhaSanXuats\Details.cshtml" />
+    <Content Include="Views\NhaSanXuats\Edit.cshtml" />
+    <Content Include="Views\NhaSanXuats\Index.cshtml" />
+    <Content Include="Views\SanPhams\Create.cshtml" />
+    <Content Include="Views\SanPhams\Delete.cshtml" />
+    <Content Include="Views\SanPhams\Details.cshtml" />
+    <Content Include="Views\SanPhams\Edit.cshtml" />
+    <Content Include="Views\SanPhams\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Accounts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -205,6 +233,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202203160349140_Create_Table_Uploand.resx">
       <DependentUpon>202203160349140_Create_Table_Uploand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204181532128_Create_Table_Role.resx">
+      <DependentUpon>202204181532128_Create_Table_Role.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

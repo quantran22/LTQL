@@ -83,3 +83,4 @@ D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.pdb
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.AssemblyReference.cache
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_Table_Uploand.resources
 D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.csproj.GenerateResource.cache
+D:\LTQL\BTLTQL\BTLTQL\obj\Debug\BTLTQL.Migrations.Create_Table_Role.resources
